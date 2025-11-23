@@ -1,0 +1,10 @@
+/* Цвет полоски */
+#nprogress .bar {
+  background: #1976d2 !important; /* Цвет primary из MUI */
+  height: 3px !important;
+}
+
+/* Цвет свечения */
+#nprogress .peg {
+  box-shadow: 0 0 10px #1976d2, 0 0 5px #1976d2 !important;
+}

@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  # бэкенд
+  server:
+    build: ./tech-int3-server
+    ports:
+      - "3001:3001"
+    container_name: avito-server
+
+  # фронтенд
+  client:
+    build: .
+    ports:
+      - "8080:80" # Открываем сайт на localhost:8080
+    depends_on:
+      - server # Ждем запуска сервера
+    container_name: avito-client

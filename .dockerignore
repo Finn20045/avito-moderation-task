@@ -1,0 +1,5 @@
+node_modules
+dist
+.git
+.vscode
+tech-int3-server/node_modules
