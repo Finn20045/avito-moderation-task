@@ -64,7 +64,7 @@
 ```bash
 docker-compose up --build
 Приложение будет доступно по адресу: http://localhost:8080
-
+```
 ### Вариант 2: Локальный запуск (Dev mode)
 
 Для запуска потребуется два терминала.
@@ -75,14 +75,14 @@ docker-compose up --build
 cd tech-int3-server
 npm install
 npm start
-
+```
 Сервер запустится на порту 3001.
 
 2. **Запуск клиента:**
 
 Откройте новый терминал в корневой папке проекта:
-
+```bash
 npm install
 npm run dev
-
+```
 Клиент запустится на http://localhost:5173
